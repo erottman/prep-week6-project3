@@ -52,18 +52,61 @@ $("li:last").click(function () {
 
 // Question #5
 
+$(".cute").click(function () {
+
+$(this).clone().appendTo($(".clones"));
+});
+
 
   // Question #6
+
+  $("body").dblclick(function () {
+
+    $("#makeSquare").addClass("altsquare")
+  });
 
 
 
 // Question #7
+
+$(".black swatch").click(function () {
+
+  $("body").addClass("body.black");
+})
+
+
+$(".wood swatch").click(function () {
+
+  $("body").addClass("body.wood");
+})
+
+
+$(".chaos swatch").click(function () {
+
+  $("body").addClass("");
+})
+
+
+
+$(".restor swatch").click(function () {
+
+  $("body").addClass("");
+})
 
 
 
   // Question #8
 
 
+$("#hover").mouseover(function () {
+
+  $(this).addClass("red");
+
+});
+
+$("#hover").click(function () {
+  $(this).toggleClass("green");
+});
 
 
 });

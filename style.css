@@ -6,6 +6,22 @@ body {
    margin: 0;
 }
 
+body .black  {
+  font-size: 180%;
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+body .wood  {
+    font-size: 180%;
+    margin: 0;
+    background-image: url("http://phandroid.s3.amazonaws.com/wp-content/uploads/2015/03/wood-wallpaper-3.jpg");
+    background-size: 100%;
+    color: #fff;
+
+}
+
 main {
   width: 500px;
   margin: auto;
@@ -41,6 +57,10 @@ button:hover {
   background: #3cb0fd;
 }
 
+button:hover .alt {
+  background: red;
+}
+
 button:focus {outline:0;}
 
 .center {
@@ -57,6 +77,9 @@ button:focus {outline:0;}
   border: 4px solid #00AF33;
 }
 
+
+}
+
 .hideMe {
   width: 100px;
   height: 100px;
@@ -70,7 +93,17 @@ button:focus {outline:0;}
   margin-left: 20px;
 }
 
-#makeSquare {
+
+.altsquare {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  background-color: #C82536;
+
+}
+
+
+.makeSquare {
   width: 300px;
   height: 120px;
   border-radius: 10px;
